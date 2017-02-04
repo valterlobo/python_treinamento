@@ -8,4 +8,14 @@ def tax(bill):
 
 bill = 	100.89
 tax = tax(bill)
-print (tax) 
+print (tax)
+
+
+
+fin = open("data.py")
+print ("----------------INICIO---------------")
+for  line in fin:
+    print (line)
+
+print ("----------------FIM---------------")
+fin.close()
